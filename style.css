@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap'); 
+
+
+body{
+    background-image: url("https://wallpapers.com/images/high/gordon-ramsay-red-portrait-arva5i36f3bco0q0.webp");
+    height: 97vh;
+    width: 98vw;
+    background-size: cover;
+    font-family: "poppins", sans-serif;
+}
+
+.nav{
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.nav span{
+    color: orangered;
+}
+
+.nav{
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+
+.nav:hover{
+    color: orangered;
+    text-shadow: 0 0 25px orangered,
+                 0 0 50px orangered;
+    font-weight: 600px;
+    
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: orangered;
+    border-bottom: 3px solid orangered;
+    cursor: pointer;
+}
+
+header h1{
+    color: white;
+    font-size: 80px;
+}
+
+header h2{
+    color: black;
+    font-size: 35px;
+}
+
+header h2 span{
+    color: orangered;
+}
+
+header h3{
+    color: orangered;
+    font-size: 25px;
+}
+
+header h3 span{
+    color: black;
+}
+
+header p{
+    font-size: 20px;
+    color: rgb(248, 248, 248);
+}
+
+.btn{
+    height: 45px;
+    width: 100px;
+    background-color: orangered;
+    border-color: orangered;
+    border-radius: 6px;
+    color: white;
+    font-size: 20px;
+}
+
+/* Media Queries for Mobile Responsiveness */
+
+@media(min-width: 640px){
+    .sect{
+        font-size: 2.5rem;
+    }
+
+    .head p{
+        margin: 2rem 0;
+    }
+
+    .head h1{
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+
+    .actbtn{
+        gap: 2rem;
+    }
+
+}
+
+@media(min-width: 768px){
+    .head h1{
+        font-size: 5rem;
+        line-height: 5 rem;
+    }
+}
